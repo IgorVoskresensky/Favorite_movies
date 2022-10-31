@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
@@ -20,11 +20,17 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
-import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
-import io.reactivex.rxjava3.disposables.Disposable;
 import io.reactivex.rxjava3.functions.Action;
-import io.reactivex.rxjava3.functions.Consumer;
 import io.reactivex.rxjava3.schedulers.Schedulers;
+import ru.ivos.favoritemovies.db.Dao;
+import ru.ivos.favoritemovies.entities.Movie;
+import ru.ivos.favoritemovies.db.MovieDatabase;
+import ru.ivos.favoritemovies.R;
+import ru.ivos.favoritemovies.entities.Review;
+import ru.ivos.favoritemovies.adapters.ReviewAdapter;
+import ru.ivos.favoritemovies.entities.Trailer;
+import ru.ivos.favoritemovies.adapters.TrailersAdapter;
+import ru.ivos.favoritemovies.viewmodels.MovieDetailViewModel;
 
 public class MovieDetailActivity extends AppCompatActivity {
 

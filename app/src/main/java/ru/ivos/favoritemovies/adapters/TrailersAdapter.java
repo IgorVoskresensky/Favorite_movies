@@ -1,18 +1,18 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import ru.ivos.favoritemovies.R;
+import ru.ivos.favoritemovies.entities.Trailer;
 
 public class TrailersAdapter extends RecyclerView.Adapter<TrailersAdapter.TrailerViewHolder> {
 
@@ -67,7 +67,7 @@ public class TrailersAdapter extends RecyclerView.Adapter<TrailersAdapter.Traile
         }
     }
 
-    interface OnTrailerClickListener {
+    public interface OnTrailerClickListener {
 
         void onTrailerClick(Trailer trailer);
     }

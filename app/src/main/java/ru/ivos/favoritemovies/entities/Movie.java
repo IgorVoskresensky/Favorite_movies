@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.entities;
 
 import androidx.room.Embedded;
 import androidx.room.Entity;

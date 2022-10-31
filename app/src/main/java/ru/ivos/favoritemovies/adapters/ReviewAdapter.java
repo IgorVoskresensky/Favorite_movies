@@ -1,6 +1,5 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.adapters;
 
-import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +12,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ru.ivos.favoritemovies.R;
+import ru.ivos.favoritemovies.entities.Review;
 
 public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ReviewViewHolder>{
 

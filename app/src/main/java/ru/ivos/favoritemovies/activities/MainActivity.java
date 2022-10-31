@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,10 +11,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ProgressBar;
 
 import java.util.List;
+
+import ru.ivos.favoritemovies.entities.Movie;
+import ru.ivos.favoritemovies.adapters.MoviesAdapter;
+import ru.ivos.favoritemovies.R;
+import ru.ivos.favoritemovies.viewmodels.MainViewModel;
 
 public class MainActivity extends AppCompatActivity {
 

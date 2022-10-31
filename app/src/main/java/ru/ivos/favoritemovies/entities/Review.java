@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.entities;
 
 import com.google.gson.annotations.SerializedName;
 

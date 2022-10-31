@@ -1,10 +1,12 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.db;
 
 import android.app.Application;
 
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+
+import ru.ivos.favoritemovies.entities.Movie;
 
 @Database(
         entities = {Movie.class},
@@ -27,5 +29,5 @@ public abstract class MovieDatabase extends RoomDatabase {
         return instance;
     }
 
-    abstract Dao getDao();
+    public abstract Dao getDao();
 }

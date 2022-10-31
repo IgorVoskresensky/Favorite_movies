@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.adapters;
 
 import android.graphics.drawable.Drawable;
 import android.util.Log;
@@ -16,6 +16,9 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ru.ivos.favoritemovies.entities.Movie;
+import ru.ivos.favoritemovies.R;
 
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewHolder> {
 
@@ -85,12 +88,12 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewH
         return movieList.size();
     }
 
-    interface OnReachEndListener {
+    public interface OnReachEndListener {
 
         void onReachEnd();
     }
 
-    interface OnMovieClickListener {
+    public interface OnMovieClickListener {
         void onClickMovie(Movie movie);
     }
 

@@ -1,8 +1,10 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.api;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
+
+import ru.ivos.favoritemovies.entities.Movie;
 
 public class MovieResponse {
 

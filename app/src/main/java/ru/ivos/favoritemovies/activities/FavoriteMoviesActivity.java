@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
@@ -11,6 +11,11 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import java.util.List;
+
+import ru.ivos.favoritemovies.entities.Movie;
+import ru.ivos.favoritemovies.adapters.MoviesAdapter;
+import ru.ivos.favoritemovies.R;
+import ru.ivos.favoritemovies.viewmodels.FavoriteMoviesViewModel;
 
 public class FavoriteMoviesActivity extends AppCompatActivity {
 

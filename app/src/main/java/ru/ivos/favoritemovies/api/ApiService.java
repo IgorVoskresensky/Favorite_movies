@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.api;
 
 import io.reactivex.rxjava3.core.Single;
 import retrofit2.http.GET;

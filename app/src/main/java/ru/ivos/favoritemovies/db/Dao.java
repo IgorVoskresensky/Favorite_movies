@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.db;
 
 
 import androidx.lifecycle.LiveData;
@@ -8,6 +8,7 @@ import androidx.room.Query;
 import java.util.List;
 
 import io.reactivex.rxjava3.core.Completable;
+import ru.ivos.favoritemovies.entities.Movie;
 
 @androidx.room.Dao
 public interface Dao {

@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.viewmodels;
 
 import android.app.Application;
 import android.util.Log;
@@ -16,6 +16,9 @@ import io.reactivex.rxjava3.disposables.Disposable;
 import io.reactivex.rxjava3.functions.Action;
 import io.reactivex.rxjava3.functions.Consumer;
 import io.reactivex.rxjava3.schedulers.Schedulers;
+import ru.ivos.favoritemovies.api.ApiFactory;
+import ru.ivos.favoritemovies.entities.Movie;
+import ru.ivos.favoritemovies.api.MovieResponse;
 
 public class MainViewModel extends AndroidViewModel {
 

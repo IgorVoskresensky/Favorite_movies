@@ -1,4 +1,4 @@
-package ru.ivos.favoritemovies;
+package ru.ivos.favoritemovies.viewmodels;
 
 import android.app.Application;
 
@@ -7,6 +7,10 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
 import java.util.List;
+
+import ru.ivos.favoritemovies.db.Dao;
+import ru.ivos.favoritemovies.entities.Movie;
+import ru.ivos.favoritemovies.db.MovieDatabase;
 
 public class FavoriteMoviesViewModel extends AndroidViewModel {
 
